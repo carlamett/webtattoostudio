@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- My styles -->
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <!-- SEO -->
+    <meta name="description" content="Estudio de tatuajes y piercings. Realizamos tatuajes de todo tipo, con diseños únicos y personalizados. Entra y descubrinos.">
+    <meta name="keywords" content="tatuajes, piercings, perforaciones, estudio de tatuajes, arte corporal, diseños de tatuajes, tatuajes tradicionales, tatuajes realistas, tatuajes personalizados, tatuajes blanco y negro, tatuajes a color, estudio de tatuajes en argentina, ">
+    <link rel="icon" type="image/x-icon" href="/pictures/Iso.png">
+    <title>Tattoo World</title>
+  </head>
+  <body>
+    <header>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html"
+            ><img src="/pictures/Logo.png" alt="logo" class="logo"/></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/work.html">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/about.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contact.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--seccion carrusel-->
+      <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/pictures/Working.png" class="d-block w-100" alt="Tatuando" />
+            <div class="carousel-caption d-none d-md-block">
+              <p>
+                Agenda tu turno ahora
+              </p>
+              <h5>Estudio de tatuajes y piercings</h5>
+              <a href="pages/contact.html" class="btn">Agendar</a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/pictures/Drawing.png" class="d-block w-100" alt="Dibujando" />
+            <div class="carousel-caption d-none d-md-block">
+              <p>
+                Ver diseño de tatuajes
+              </p>
+              <h5>Diseños personalizados</h5>
+              <a href="pages/work.html" class="btn">Trabajos</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/pictures/Studio.png" class="d-block w-100" alt="Exterior estudio" />
+            <div class="carousel-caption d-none d-md-block">
+              <p>
+                Dudas, preguntas o más info?
+              </p>
+              <h5>Contactanos</h5>
+              <a href="pages/contact.html" class="btn">Contacto</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </main>
+    <!-- Seccion servicio -->
+    <section id="servicio">
+      <div class="container">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="fs-2 mb-3">
+              <i class="icon fas fa-light fa-pencil"></i>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Atención personalizada</h3>
+            <p>
+              Transformamos tus ideas en realidad. <br>Solicita un turno previo para entender <br> tus gustos y plasmar en tu tatuaje tu autenticidad.
+            </p>
+          </div>
+          <div class="feature col">
+            <div class="fs-2 mb-3">
+              <i
+                class="icon fas fa-regular fa-suitcase-medical"></i>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Seguridad e higiene</h3>
+            <p>
+              Nos aseguramos de estirilizar todos <br> nuestros utensillos, y las agujas que utilizamos <br> son descartables y de un solo uso.
+            </p>
+          </div>
+          <div class="feature col">
+            <div class="fs-2 mb-3">
+              <i class="icon fas fa-regular fa-trophy"></i>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Profesionalidad</h3>
+            <p>
+              Gracias a nuestra gran experiencia <br> te podemos ayudar a rediseñar tu tatuaje <br> anterior a uno nuevo que se adapte a vos.
+            </p>
+          </div>
+        </div>
+        <a href="pages/contact.html" class="btn">Contactarse</a>
+      </div>
+    </section>
+    <!--Seccion reseñas-->
+    <section id="reseñas">
+      <div class="container">
+        <h2>Reseñas</h2>
+        <div class="row">
+          <div class="col-lg-4 mb-4 g-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Adriana Ayala</h5>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <p>Hace 4 días</p>
+                <p class="card-text">
+                  Excelente atención! Muy buenos los trabajos!!!
+                  Recomendable!!!!
+                </p>
+                <br />
+                <hr>
+                <a href="pages/error.html" class="btn-reseña">Ver más reseñas</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 g-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Violeta Paz</h5>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <p>Hace 2 días</p>
+                <p class="card-text">
+                  La verdad super conforme con el trabajo y la atención me
+                  encanto. 😊
+                </p>
+                <br />
+                <hr>
+                <a href="pages/error.html" class="btn-reseña">Ver más reseñas</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 g-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">David Suarez</h5>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <i class="icon fa-sharp fa-solid fa-star"></i>
+                <p>Hace una semana</p>
+                <p class="card-text">
+                  Muy buena atención, super amables y trabajan muy bien! 👏
+                </p>
+                <br />
+                <hr>
+                <a href="pages/error.html" class="btn-reseña">Ver más reseñas</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Seccion trabajos-->
+    <section id="trabajos">
+      <div class="container">
+        <h2>Trabajos</h2>
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="img-card">
+              <a href="/pictures/Gallery1.png"><img src="/pictures/Gallery1.png" class="card-img-top" alt="Tigre gallery 1"/>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="img-card">
+              <a href="/pictures/Gallery2.png"><img src="/pictures/Gallery2.png" class="card-img-top" alt="Mujer gallery 2"/>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="img-card">
+              <a href="/pictures/Gallery3.png"><img src="/pictures/Gallery3.png" class="card-img-top" alt="Piercing lobulo gallery 3"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        <br>
+        <a href="pages/work.html" class="btn">Más trabajos</a>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer>
+      <div class="container">
+        <div
+          class="d-flex flex-wrap justify-content-between py-3 my-4 border-top"
+        >
+          <p class="col-md-4 mb-0 text-body-secondary">
+            © Copyright 2023 Tattoo World │ CarlaCMD
+          </p>
+          <a
+            href="index.html"
+            class="col-md-4 d-flex justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <img src="/pictures/Logo.png" alt="logo" class="logo" />
+          </a>
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="ms-3">
+              <a href="pages/error.html"><i class="fab fa-whatsapp"></i></a>
+            </li>
+            <li class="ms-3">
+              <a href="pages/error.html"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="ms-3">
+              <a href="pages/error.html"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+

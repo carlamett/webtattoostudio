@@ -1,0 +1,30 @@
+//IMPORTAR COMPONENTES//
+
+@import "colors";
+@import "btn";
+@import "img-card";
+@import "animations";
+@import "mixins";
+
+//IMPORTAR PÁGINAS//
+
+@import "navbar";
+@import "paginas/index";
+@import "paginas/work";
+@import "paginas/about";
+@import "paginas/faq";
+@import "paginas/contact";
+@import "paginas/error";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: $color_grey_dark;
+  color: white;
+}

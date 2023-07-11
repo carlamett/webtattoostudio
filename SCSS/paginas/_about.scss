@@ -1,0 +1,25 @@
+#about {
+  text-align: center;
+  margin-top: 150px;
+  .text {
+    margin-top: 50px;
+  }
+  p {
+    text-align: start;
+    font-size: 16px;
+    animation: from-bottom 1s ease;
+  }
+  .firma {
+    max-width: 130px;
+    animation: from-bottom 1s ease;
+    margin-right: 100%;
+  }
+  img {
+    margin-top: 30px;
+    animation: fade-in 2s ease;
+  }
+  .btn {
+    margin-top: 50px;
+    animation: fade-in 2s ease;
+  }
+}

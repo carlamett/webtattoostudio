@@ -1,0 +1,15 @@
+//IMPORTAR FOOTER//
+
+footer {
+  align-items: center;
+  margin-top: 90px;
+  .logo {
+    max-height: 40px;
+  }
+  .fab {
+    color: white;
+    &:hover {
+      color: $color_grey_light;
+    }
+  }
+}

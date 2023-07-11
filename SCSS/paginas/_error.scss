@@ -1,0 +1,21 @@
+#error {
+  text-align: center;
+  margin-top: 140px;
+  animation: from-bottom 1s ease;
+  h1 {
+    font-size: 120px;
+  }
+  p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  @media (max-width: 985px) {
+    margin-top: 120px;
+    h1 {
+      font-size: 80px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+//MIXIN SOMBRA TEXTO//
+
+@mixin text-shadow(
+  $offset-x: 2px,
+  $offset-y: 2px,
+  $blur-radius: 4px,
+  $color: $color_grey_dark
+) {
+  text-shadow: $offset-x $offset-y $blur-radius $color;
+}

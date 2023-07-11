@@ -1,0 +1,13 @@
+#gallery {
+  text-align: center;
+  margin-top: 150px;
+  p {
+    margin-top: 30px;
+    font-size: 16px;
+    animation: from-bottom 1s ease;
+  }
+  img {
+    margin-top: 20px;
+    animation: fade-in 1s ease;
+  }
+}

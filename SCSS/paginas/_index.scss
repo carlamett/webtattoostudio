@@ -1,0 +1,82 @@
+.carousel {
+  h5 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    @include text-shadow;
+  }
+  p {
+    font-size: 24px;
+    @include text-shadow;
+  }
+  .btn {
+    margin-bottom: 80px;
+  }
+  img {
+    filter: brightness(55%);
+  }
+  @media (max-width: 985px) {
+    img {
+      margin-top: 70px;
+    }
+    h5 {
+      font-size: 38px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+#servicio {
+  text-align: center;
+  margin-top: 75px;
+  .icon {
+    padding: 20px;
+    background-color: $color_red;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+#reseñas {
+  h2 {
+    margin-top: 130px;
+    text-align: center;
+  }
+  h5 {
+    font-weight: bold;
+  }
+  .card {
+    border-radius: 20px;
+    background-image: linear-gradient(
+      to bottom,
+      $color_red_dark,
+      $color_grey_dark 95%
+    );
+    border: 0;
+  }
+  .btn-reseña {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+      color: $color_red;
+    }
+  }
+
+  .icon {
+    color: #fdba00;
+  }
+}
+
+#trabajos {
+  text-align: center;
+  h2 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}

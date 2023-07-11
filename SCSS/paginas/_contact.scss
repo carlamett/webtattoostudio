@@ -1,0 +1,22 @@
+#contacto {
+  h2 {
+    margin-top: 150px;
+    text-align: center;
+  }
+  .form {
+    margin: auto;
+    margin-top: 10px;
+    text-align: start;
+    animation: from-bottom 1s ease;
+  }
+  label {
+    margin-top: 20px;
+  }
+  .info {
+    margin-top: 30px;
+  }
+  .btn,
+  .file {
+    margin-top: 15px;
+  }
+}

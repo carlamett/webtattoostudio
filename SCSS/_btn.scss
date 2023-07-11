@@ -1,0 +1,14 @@
+//IMPORTAR BOTÓN//
+
+.btn {
+  background-color: $color_red;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  &:hover {
+    background-color: $color_red_dark;
+    color: white;
+  }
+}

@@ -1,0 +1,276 @@
+@charset "UTF-8";
+.btn {
+  background-color: #da3820;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #7d2215;
+  color: white;
+}
+
+.img-card {
+  position: relative;
+  overflow: hidden;
+}
+.img-card:hover img {
+  filter: brightness(60%);
+  transition: 0.5s;
+  transform: scale(0.96);
+  transition: transform 0.5s ease-in-out;
+}
+
+@keyframes from-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.navbar {
+  background-image: linear-gradient(to top, black, #121212);
+}
+.navbar .nav-link {
+  margin: 0 20px;
+  font-weight: 100px;
+}
+.navbar .nav-link.active {
+  color: #da3820;
+  font-weight: bold;
+}
+.navbar .nav-link:hover {
+  color: #636363;
+  font-weight: 20px;
+}
+.navbar .logo {
+  max-height: 50px;
+}
+
+.carousel h5 {
+  margin-bottom: 20px;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px #121212;
+}
+.carousel p {
+  font-size: 24px;
+  text-shadow: 2px 2px 4px #121212;
+}
+.carousel .btn {
+  margin-bottom: 80px;
+}
+.carousel img {
+  filter: brightness(55%);
+}
+@media (max-width: 985px) {
+  .carousel img {
+    margin-top: 70px;
+  }
+  .carousel h5 {
+    font-size: 38px;
+  }
+  .carousel p {
+    font-size: 18px;
+  }
+}
+
+#servicio {
+  text-align: center;
+  margin-top: 75px;
+}
+#servicio .icon {
+  padding: 20px;
+  background-color: #da3820;
+  color: white;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+#reseñas h2 {
+  margin-top: 130px;
+  text-align: center;
+}
+#reseñas h5 {
+  font-weight: bold;
+}
+#reseñas .card {
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, #7d2215, #121212 95%);
+  border: 0;
+}
+#reseñas .btn-reseña {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#reseñas .btn-reseña:hover {
+  color: #da3820;
+}
+#reseñas .icon {
+  color: #fdba00;
+}
+
+#trabajos {
+  text-align: center;
+}
+#trabajos h2 {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#gallery {
+  text-align: center;
+  margin-top: 150px;
+}
+#gallery p {
+  margin-top: 30px;
+  font-size: 16px;
+  animation: from-bottom 1s ease;
+}
+#gallery img {
+  margin-top: 20px;
+  animation: fade-in 1s ease;
+}
+
+#about {
+  text-align: center;
+  margin-top: 150px;
+}
+#about .text {
+  margin-top: 50px;
+}
+#about p {
+  text-align: start;
+  font-size: 16px;
+  animation: from-bottom 1s ease;
+}
+#about .firma {
+  max-width: 130px;
+  animation: from-bottom 1s ease;
+  margin-right: 100%;
+}
+#about img {
+  margin-top: 30px;
+  animation: fade-in 2s ease;
+}
+#about .btn {
+  margin-top: 50px;
+  animation: fade-in 2s ease;
+}
+
+#faq {
+  text-align: center;
+  margin-top: 150px;
+}
+#faq .card {
+  margin-top: 30px;
+  background-color: #7d2215;
+  padding-top: 10px;
+  animation: from-bottom 1s ease;
+}
+#faq h3 {
+  font-size: 18px;
+  text-align: start;
+  margin-left: 20px;
+}
+#faq p {
+  background-image: linear-gradient(to top, #636363, #121212);
+  padding: 30px;
+  text-align: start;
+  font-size: 16px;
+  border-radius: 10px;
+  animation: from-bottom 1s ease;
+}
+#faq .btn {
+  margin-top: 20px;
+  animation: fade-in 2s ease;
+}
+
+#contacto h2 {
+  margin-top: 150px;
+  text-align: center;
+}
+#contacto .form {
+  margin: auto;
+  margin-top: 10px;
+  text-align: start;
+  animation: from-bottom 1s ease;
+}
+#contacto label {
+  margin-top: 20px;
+}
+#contacto .info {
+  margin-top: 30px;
+}
+#contacto .btn,
+#contacto .file {
+  margin-top: 15px;
+}
+
+#error {
+  text-align: center;
+  margin-top: 140px;
+  animation: from-bottom 1s ease;
+}
+#error h1 {
+  font-size: 120px;
+}
+#error p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+@media (max-width: 985px) {
+  #error {
+    margin-top: 120px;
+  }
+  #error h1 {
+    font-size: 80px;
+  }
+  #error p {
+    font-size: 18px;
+  }
+}
+
+footer {
+  align-items: center;
+  margin-top: 90px;
+}
+footer .logo {
+  max-height: 40px;
+}
+footer .fab {
+  color: white;
+}
+footer .fab:hover {
+  color: #636363;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
